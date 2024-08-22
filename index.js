@@ -32,7 +32,7 @@ async function main() {
     await sleepRandom(60 * 1000, 30 * 1000);
     await user.sync();
   } catch (err) {
-    console.log(err);
+    console.log("error");
   }
   console.log("completed");
 }
